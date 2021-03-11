@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    background-color: #D0F1BF;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {    
+    background-color: #D0F1BF;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+iframe {
+    min-height: 50vh;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.main {
+    background-color: #9ABD97;
+    margin: 0 15%;
+    padding: 10px 40px 40px 40px;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #313131;
+}
+
+.nav-item {
+    float: left;
+    width: 25%
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #d21034;
+    color: white;
+}
+
+.active {
+    background-color: #fce100;
+    color: black;
+}
+
+img {
+    width: 100%;
+    min-height: 40vh;
+}
+
+.flag {
+    width: 250px;
+    min-height: 150px;
+    height: 150px;
+}
+
+.emblem {
+    width: 140px;
+    min-height: 150px;
+    height: 150px;
+}
+
+.row {
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.col {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+}
+
+@media (min-width: 1399.99px) {
+    .main {
+        background-color: #9ABD97;
+        margin: 0 20%;
+        padding: 15px 25px 25px 25px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .main {
+        background-color: #9ABD97;
+        margin: 0 10%;
+        padding: 10px 20px 20px 20px;
+    }
+    
+    a {
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    html, body {
+        font-size: 11pt;
+    }
+    
+    h1 {
+        text-align: center;
+        font-weight: 200;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .flag {
+        width: 150px;
+        min-height: 100px;
+        height: 100px;
+    }
+
+    .emblem {
+        width: 90px;
+        min-height: 100px;
+        height: 100px;
+    }
+    
+    .nav-item {
+        float: left;
+        width: 100%
+    }
+
+    a {
+        padding: 5px 6px;
+    }
+    
+    img {
+        min-height: 20vh;
+    }
+}
